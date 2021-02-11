@@ -1,8 +1,12 @@
 package _04_Searching_With_Streams;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+//
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+//
+//import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.Test;
+
+import static junit.framework.Assert.assertEquals;
 
 class StreamSearchTest {
 	@Test
