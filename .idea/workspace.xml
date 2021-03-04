@@ -36,7 +36,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.StreamSorter">
+  <component name="RunManager" selected="JUnit.StreamSearchTest">
     <configuration name="LambdaMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_Lambda_Methods.LambdaMethods" />
       <module name="Level5-Module2" />
@@ -63,8 +63,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Level5-Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_04_Searching_With_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_04_Searching_With_Streams" />
+      <option name="MAIN_CLASS_NAME" value="_04_Searching_With_Streams.StreamSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamSearchTest" />
         <item itemvalue="Application.StreamSorter" />
         <item itemvalue="Application.LambdaMethods" />
       </list>

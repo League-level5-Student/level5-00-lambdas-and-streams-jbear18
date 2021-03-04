@@ -13,9 +13,14 @@ public class StreamSearcher {
 		Stream<String> str= Arrays.stream(strArr);
 		//3. Use the filter method with a lambda to extract all the String
 		//   elements that match the String parameter.
-		
+		Stream<String> newStr= str.filter((s) ->{
+			if(s.contains(strToCount)){
+				return true;
+			}
+			return false;
+				});
 		//4. Return the count of the filtered stream.
 		
-		return 0;
+		return newStr.count();
 	}
 }
